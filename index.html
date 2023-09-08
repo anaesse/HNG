@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sophia Edeki">
+    <meta name="description" content="A web page displaying a user information card">
+    <title>Stage One Task</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="/main.js" defer></script>
+</head>
+<body>
+        <main class="card">
+            <section class="image">
+                <figure>
+                    <img src="/sophia-edeki.jpg" alt="Sophia Edeki" data-testid="slackDisplayImage" title="Profile picture" width="2048" height="2862">
+                    <figcaption class="offscreen">A beautiful picture of me.</figcaption>
+                </figure>
+            </section>
+            <section class="content">
+                <div class="details">
+                    <h2 data-testid="slackUserName" >Sophia Edeki<br/><span data-testid="myTrack">Track-Frontend</span></h2>
+                    <div class="date">
+                        <p data-testid="currentDayOfTheWeek" id="currentDay" ></p>
+                        <p data-testid="currentUTCTime" id="currentUTCTime" ></p>
+                        <small>view 👉 <a href="https://github.com/anaesse/HNG.git">Source-Code</a></small>
+                    </div>
+                </div>
+            </section>
+       
+    </main>
+</body>
+
+</html>
